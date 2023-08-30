@@ -54,7 +54,7 @@ function TextAnswer({ answer, correct, openButtonNext, totalCorrectAnswer }) {
 
     return (
         <>
-            
+        
             {answer && answer.map((item, index) => {
              
                     return (

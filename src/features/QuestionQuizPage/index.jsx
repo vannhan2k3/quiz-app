@@ -119,11 +119,11 @@ function QuestionQuiPage(props) {
         <TextQuestion number={number} question={listQuestion && listQuestion[number]}/>
         <TextAnswer answer={newAnswer}   correct={listQuestion && listQuestion[number].correct_answer}
                     openButtonNext={handleCheckToShowButtonNext} totalCorrectAnswer={handleTotal} />
-        {/* // onchangeAnswer={handleOnchangeAnswer} */}
-        <button className={openButtonNext === true ? "" : "disabled"}  onClick={() => handleNext()}>{number ===  lengthQuestion - 1 ?"Done" : "Next"}</button>
+        
+        <button className={openButtonNext === true ? "btn-next" : "disabled"}  onClick={() => handleNext()}>{number ===  lengthQuestion - 1 ?"Done" : "Next"}</button>
 
-        <p>Number of correct Answer {totalCorrectAnswer} </p>
-        <p>thời gian đang chạy {countTime} </p>
+        <div className="clock"> </div>
+        <p className="text-clock">{countTime} </p>
         
        </div>
       

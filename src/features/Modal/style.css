@@ -4,6 +4,8 @@
     top: 0;
     left: 0;
     right: 0;
+    bottom: 0;
+  
   }
  .modal-overlay{
  width: 100%;
@@ -16,7 +18,7 @@
  background-color: rgba(141, 136, 136, 0.5);
  }
   .modal-body{
-     
+     border-radius: 15px;
       background-position: center;
       height: 500px;
       width: 500px;
@@ -48,17 +50,29 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 26px;
+    color: white;
   }
-  .content-correts{
+  .content .correts{
    display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 20px;
+    color: white;
   }
   .content-button .play{
-      width: 100px;
-      font-size: 16px;
-      padding: 10px;
+     width: 120px;
+      font-size: 18px;
+    
+      border: none;
       border-radius: 20px;
-      background: #99CCFF;
+      background: rgb(248, 71, 71);
       cursor: pointer;
+      color: white;
+      padding: 8px;
+
+  }
+  .modal-body-header h2{
+    font-size: 26px;
+    color: aliceblue;
   }

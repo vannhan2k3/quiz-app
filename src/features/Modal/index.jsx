@@ -25,7 +25,7 @@ function Modal({OnDataToMoDal ,totalCorrectAnswer,countTime,clearTimer,modalStat
                 <div className='modal-body than'>
                 <img src={victory} alt="victory" className='victory' />
                 <div className='modal-body-header'>
-                    <h2> Congratulation lon hon 5</h2>
+                    <h2> Congratulation </h2>
             </div>
             <div className='content'>
                     <span className='you'>you are mazing !!!</span>
@@ -39,7 +39,7 @@ function Modal({OnDataToMoDal ,totalCorrectAnswer,countTime,clearTimer,modalStat
                 <div className='modal-body less'>
                 <img src= {votay} alt="votay" className='votay' />
                 <div className= 'modal-body-header'>
-                    <h2> Congratulation nho hon 5</h2>
+                    <h2> Congratulation </h2>
                </div>
                <div className='content'>
                     <span className='you'>you are mazing !!!</span>
