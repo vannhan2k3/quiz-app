@@ -1,0 +1,64 @@
+.modal{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+ .modal-overlay{
+ width: 100%;
+ height: 100vh;
+ position: absolute;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ background-color: rgba(141, 136, 136, 0.5);
+ }
+  .modal-body{
+     
+      background-position: center;
+      height: 500px;
+      width: 500px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      gap: 20px;
+      z-index: 1;
+  }
+  .modal-body.than{
+    background-image: url(../../assets/img/win.jpg);
+  }
+  .modal-body.less{
+    background-image: url(../../assets/img/win.jpg);
+  }
+  .victory{
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+  }
+  .votay{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+  }
+  .content .you{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .content-correts{
+   display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .content-button .play{
+      width: 100px;
+      font-size: 16px;
+      padding: 10px;
+      border-radius: 20px;
+      background: #99CCFF;
+      cursor: pointer;
+  }

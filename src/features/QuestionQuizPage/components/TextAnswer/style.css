@@ -1,0 +1,38 @@
+.wrap-answer{
+    background-color: rgb(253, 253, 253);
+    width: 80%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px ;
+    border-radius: 25px;
+}
+
+.answer-checked{
+    background-color: rgb(220, 131, 131);
+}
+.correct{
+    background-color: rgb(120, 182, 120);
+}
+.title{
+   color: black;
+}
+.answercorrets{
+    background-color: rgb(16, 74, 44);
+    display: block;
+    width: 60%;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+}
+img{
+    width: 20px;
+    height: 20px;
+    right: 10px;
+}
+.disabled{
+    pointer-events: none;
+    opacity: 0.7;
+    cursor: not-allowed;
+}
