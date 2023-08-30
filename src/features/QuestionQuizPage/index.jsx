@@ -40,7 +40,7 @@ function QuestionQuiPage(props) {
     async function fetch() {
       let res = await questionApi.getQuestion({ amount: 10 });
       setListQuestion(res.data.results);
-      console.log( res.data.results);
+      
     }
     fetch();
   }, []);
@@ -53,7 +53,7 @@ function QuestionQuiPage(props) {
           value: item,
         };
       });
-    console.log(answer,"kkkk");
+    
     return answerOject;
   };
 

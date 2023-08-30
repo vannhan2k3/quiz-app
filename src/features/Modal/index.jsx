@@ -16,7 +16,7 @@ function Modal({OnDataToMoDal ,totalCorrectAnswer,countTime,clearTimer,modalStat
         clearTimer()
        
     }
-    console.log("kkkk", totalCorrectAnswer);
+  
     return (
         <div className='modal'>
             <div className='modal-overlay'></div>

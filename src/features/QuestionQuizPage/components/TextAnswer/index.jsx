@@ -40,7 +40,7 @@ function TextAnswer({ answer, correct, openButtonNext, totalCorrectAnswer }) {
         
        
     
-        console.log("check dap an dung", correct, item.value);
+    
 
         if (item.value === correct) {
             setCheckCorrect(true);
@@ -50,7 +50,6 @@ function TextAnswer({ answer, correct, openButtonNext, totalCorrectAnswer }) {
         }
 
     };
-    console.log("kkkk", checkCorrect);
     //wrap-answer answer-checked
 
     return (
